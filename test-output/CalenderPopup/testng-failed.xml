@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [CalenderPopup]" parallel="tests">
+  <test thread-count="2" name="Testwithchrome(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://www.makemytrip.com/"/>
+    <classes>
+      <class name="sample.CalenderPopup">
+        <methods>
+          <include name="test"/>
+          <include name="bm"/>
+        </methods>
+      </class> <!-- sample.CalenderPopup -->
+    </classes>
+  </test> <!-- Testwithchrome(failed) -->
+  <test thread-count="2" name="Testwithfirefox(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="url" value="https://www.makemytrip.com/"/>
+    <classes>
+      <class name="sample.CalenderPopup">
+        <methods>
+          <include name="test"/>
+          <include name="bm"/>
+        </methods>
+      </class> <!-- sample.CalenderPopup -->
+    </classes>
+  </test> <!-- Testwithfirefox(failed) -->
+</suite> <!-- Failed suite [CalenderPopup] -->

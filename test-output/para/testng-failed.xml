@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [para]" parallel="tests">
+  <test thread-count="2" name="parameter chrome(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://www.amazon.in/"/>
+    <classes>
+      <class name="sample.WindowHandlesPopUP">
+        <methods>
+          <include name="configbm"/>
+          <include name="sampleMulWindow"/>
+        </methods>
+      </class> <!-- sample.WindowHandlesPopUP -->
+    </classes>
+  </test> <!-- parameter chrome(failed) -->
+  <test thread-count="2" name="parameter firefox(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="url" value="https://www.amazon.in/"/>
+    <classes>
+      <class name="sample.WindowHandlesPopUP">
+        <methods>
+          <include name="configbm"/>
+          <include name="sampleMulWindow"/>
+        </methods>
+      </class> <!-- sample.WindowHandlesPopUP -->
+    </classes>
+  </test> <!-- parameter firefox(failed) -->
+</suite> <!-- Failed suite [para] -->

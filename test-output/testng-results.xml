@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="CalenderPopup" duration-ms="95244" started-at="2018-07-09T17:04:26Z" finished-at="2018-07-09T17:06:01Z">
+    <groups>
+    </groups>
+    <test name="Testwithfirefox" duration-ms="85109" started-at="2018-07-09T17:04:26Z" finished-at="2018-07-09T17:05:51Z">
+      <class name="sample.CalenderPopup">
+        <test-method status="PASS" signature="bm(java.lang.String, java.lang.String)[pri:0, instance:sample.CalenderPopup@239963d8]" name="bm" is-config="true" duration-ms="23029" started-at="2018-07-09T17:04:26Z" finished-at="2018-07-09T17:04:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.makemytrip.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="test()[pri:0, instance:sample.CalenderPopup@239963d8]" name="test" duration-ms="62056" started-at="2018-07-09T17:04:49Z" finished-at="2018-07-09T17:05:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- sample.CalenderPopup -->
+    </test> <!-- Testwithfirefox -->
+    <test name="Testwithchrome" duration-ms="95244" started-at="2018-07-09T17:04:26Z" finished-at="2018-07-09T17:06:01Z">
+      <class name="sample.CalenderPopup">
+        <test-method status="PASS" signature="bm(java.lang.String, java.lang.String)[pri:0, instance:sample.CalenderPopup@6f7fd0e6]" name="bm" is-config="true" duration-ms="18849" started-at="2018-07-09T17:04:26Z" finished-at="2018-07-09T17:04:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.makemytrip.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="test()[pri:0, instance:sample.CalenderPopup@6f7fd0e6]" name="test" duration-ms="76374" started-at="2018-07-09T17:04:44Z" finished-at="2018-07-09T17:06:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- sample.CalenderPopup -->
+    </test> <!-- Testwithchrome -->
+  </suite> <!-- CalenderPopup -->
+</testng-results>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CalenderPopup" parallel="tests" thread-count="2">
+
+
+  <test  name="Testwithchrome" >
+  <parameter name="browser" value="chrome"/>
+   <parameter name="url" value="https://www.makemytrip.com/"/>
+    <classes>
+      <class name="sample.CalenderPopup"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test  name="Testwithfirefox" >
+  <parameter name="browser" value="firefox"/>
+   <parameter name="url" value="https://www.makemytrip.com/"/>
+    <classes>
+      <class name="sample.CalenderPopup"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- CalenderPopup -->
